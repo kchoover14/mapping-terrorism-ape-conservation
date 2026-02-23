@@ -1,0 +1,52 @@
+vdem_ctry_id,country,region,year,egal_dem,iso3c
+7,Ghana,Africa,2022,0.466,GHA
+8,South Africa,Africa,2022,0.51,ZAF
+28,Mali,Africa,2022,0.196,MLI
+31,Senegal,Africa,2022,0.523,SEN
+32,South Sudan,Africa,2022,0.029,SSD
+33,Sudan,Africa,2022,0.068,SDN
+38,Ethiopia,Africa,2022,0.197,ETH
+40,Kenya,Africa,2022,0.372,KEN
+45,Nigeria,Africa,2022,0.272,NGA
+47,Tanzania,Africa,2022,0.343,TZA
+50,Uganda,Africa,2022,0.178,UGA
+52,Benin,Africa,2022,0.35,BEN
+54,Burkina Faso,Africa,2022,0.227,BFA
+57,Mozambique,Africa,2022,0.231,MOZ
+60,Niger,Africa,2022,0.345,NER
+61,Zambia,Africa,2022,0.341,ZMB
+62,Zimbabwe,Africa,2022,0.181,ZWE
+63,Guinea,Africa,2022,0.132,GIN
+64,Ivory Coast,Africa,2022,0.273,CIV
+65,Mauritania,Africa,2022,0.177,MRT
+68,Botswana,Africa,2022,0.388,BWA
+69,Burundi,Africa,2022,0.112,BDI
+70,Cape Verde,Africa,2022,0.58,CPV
+71,Central African Republic,Africa,2022,0.16,CAF
+85,Lesotho,Africa,2022,0.521,LSO
+86,Liberia,Africa,2022,0.388,LBR
+87,Malawi,Africa,2022,0.363,MWI
+95,Sierra Leone,Africa,2022,0.393,SLE
+104,Angola,Africa,2022,0.132,AGO
+108,Cameroon,Africa,2022,0.194,CMR
+109,Chad,Africa,2022,0.069,TCD
+111,Democratic Republic of the Congo,Africa,2022,0.174,COD
+112,Republic of the Congo,Africa,2022,0.137,COG
+113,Djibouti,Africa,2022,0.19,DJI
+115,Eritrea,Africa,2022,0.134,ERI
+116,Gabon,Africa,2022,0.275,GAB
+117,The Gambia,Africa,2022,0.428,GMB
+119,Guinea-Bissau,Africa,2022,0.226,GNB
+125,Madagascar,Africa,2022,0.213,MDG
+127,Namibia,Africa,2022,0.317,NAM
+129,Rwanda,Africa,2022,0.201,RWA
+130,Somalia,Africa,2022,0.093,SOM
+132,Eswatini,Africa,2022,0.067,SWZ
+134,Togo,Africa,2022,0.29,TGO
+139,Somaliland,Africa,2022,0.158,NA
+153,Comoros,Africa,2022,0.223,COM
+160,Equatorial Guinea,Africa,2022,0.11,GNQ
+180,Mauritius,Africa,2022,0.392,MUS
+196,Sao Tome and Principe,Africa,2022,0.482,STP
+199,Seychelles,Africa,2022,0.628,SYC
+236,Zanzibar,Africa,2022,0.265,NA
