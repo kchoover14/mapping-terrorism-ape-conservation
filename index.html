@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kara C. Hoover">
-<meta name="dcterms.date" content="2023-10-01">
 
 <title>Terrorism Endangers Ape Conservation</title>
 <style>
@@ -63,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#pathways-and-solutions" id="toc-pathways-and-solutions" class="nav-link" data-scroll-target="#pathways-and-solutions">Pathways and Solutions</a></li>
   </ul></li>
   <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design">Study Design</a></li>
-  <li><a href="#data-code" id="toc-data-code" class="nav-link" data-scroll-target="#data-code">Data &amp; Code</a></li>
+  <li><a href="#project-resources" id="toc-project-resources" class="nav-link" data-scroll-target="#project-resources">Project Resources</a></li>
   <li><a href="#tools-technologies" id="toc-tools-technologies" class="nav-link" data-scroll-target="#tools-technologies">Tools &amp; Technologies</a></li>
   <li><a href="#expertise" id="toc-expertise" class="nav-link" data-scroll-target="#expertise">Expertise</a></li>
   </ul>
@@ -98,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
+      <p class="date">October 2023</p>
     </div>
   </div>
   
@@ -112,10 +111,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="executive-summary" class="level2">
 <h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
-<p><strong>Problem:</strong> Apes are among the most endangered mammals on earth, threatened by bushmeat hunting, habitat loss, and disease transmission. Terrorism is an overlooked driver of all three – yet its geographic relationship to primate habitats has not been mapped or quantified. The assumption that conservation and conflict are separate problems has left a critical stressor unaddressed.</p>
+<p><strong>Problem:</strong> Apes are among the <a href="https://www.science.org/doi/10.1126/sciadv.1600946">most endangered mammals on earth</a>, threatened by bushmeat hunting, habitat loss, and disease transmission. <a href="https://link.springer.com/chapter/10.1007/978-3-319-98285-4_14">Terrorism is an overlooked driver</a> of all three – yet its geographic relationship to primate habitats has not been mapped or quantified. The assumption that conservation and conflict are separate problems has left a critical stressor unaddressed.</p>
 <p><strong>Approach:</strong> Global Terrorism Database (GTD) attack records for sub-Saharan Africa were spatially joined to primate habitat range shapefiles in QGIS, isolating the 2,626 attacks that occurred directly within ape habitats. Attack type, lethality, and property damage were analyzed in R. V-Dem egalitarian democracy scores for 2022 were used to characterize the political context of terrorism hotspot countries. The map places all components in geographic context, with insets highlighting the three highest-concentration regions.</p>
 <p><strong>Insights:</strong> Terrorism in sub-Saharan Africa concentrates in regions that overlap directly with primate habitats, and those regions share a common political profile: low egalitarian democracy scores, high poverty, and significant inequality. The mechanism linking terrorism to ape endangerment is indirect but powerful: displacement of people into primate habitats drives bushmeat hunting for food, deforestation for fuel and settlement, and disease transmission in both directions. With 1,330 of 2,626 attacks resulting in fatalities and the Allied Democratic Forces alone responsible for 306 incidents, the scale of the problem is substantial.</p>
-<p><strong>Significance:</strong> Apes are our closest living relatives. Their behaviors illuminate our shared evolutionary history, and their loss would cause cascading ecological damage in some of the world’s most biodiverse regions. Addressing terrorism as a conservation stressor requires the same attention to poverty, inequality, and governance that drives counter-terrorism efforts – making this a problem where security policy and conservation policy are the same problem.</p>
+<p><strong>Significance:</strong> Apes are our closest living relatives. Their behaviors illuminate our shared evolutionary history, and their loss would cause cascading ecological damage in some of the world’s most biodiverse regions – <a href="https://unesdoc.unesco.org/ark:/48223/pf0000371556">great apes and their habitats</a> are among the most critical conservation priorities on earth. Disease transmission between apes and humans runs in both directions: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2935100/">HIV originated in ape bushmeat hunting</a>, and <a href="https://www.nature.com/articles/s41598-023-32432-8">ebola outbreaks threaten endangered gorilla populations</a> when human conflict drives contact. Addressing terrorism as a conservation stressor requires the same attention to poverty, inequality, and governance that drives counter-terrorism efforts – making this a problem where security policy and conservation policy are the same problem.</p>
 <p><strong>Key Findings</strong></p>
 <ul>
 <li>2,626 terrorist attacks occurred within primate habitat ranges in sub-Saharan Africa; 1,330 resulted in fatalities totaling over 11,000 individuals killed.</li>
@@ -124,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Property damage from attacks is predominantly minor or not recorded – the primary threat mechanism is human displacement and death, not infrastructure destruction.</li>
 <li>Three distinct hotspot regions require different intervention strategies: the DRC-Uganda-Burundi corridor (insurgency and ethnic conflict), the Nigeria-Cameroon border (wealth inequality and corruption), and Sierra Leone (economic instability and political fragility).</li>
 </ul>
-<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -147,43 +146,28 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="the-map">The Map</h3>
 <p>The map below shows all terrorist attacks that occurred within primate habitat ranges in sub-Saharan Africa. Attack type is distinguished by color and lethality is scaled by point size. Three insets highlight the highest-concentration hotspot regions.</p>
 <p><strong>Figure 1. Terrorist Attacks Within Primate Habitats, Sub-Saharan Africa</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="map-terrorism-ape-conservation.jpg" class="img-fluid figure-img"></p>
-<figcaption>Satellite basemap of sub-Saharan Africa showing terrorist attack locations within primate habitat ranges, colored by attack type and scaled by lethality, with three regional insets.</figcaption>
-</figure>
-</div>
+<p><img src="map-terrorism-ape-conservation.jpg" class="img-fluid"></p>
 <p><strong>Interpretation:</strong> Attacks occuring in areas where apes are prevalent cluster in three distinct regions that correspond to areas of documented political instability and ape conservation concern: the DRC-Uganda-Burundi border corridor in the east, the Nigeria-Cameroon border in the center, and Sierra Leone on the west coast. The insets make the density of attacks within these corridors visible at a scale where individual incidents and their spatial relationship to habitat boundaries can be assessed.</p>
 </section>
 <section id="property-damage-and-attack-character" class="level3">
 <h3 class="anchored" data-anchor-id="property-damage-and-attack-character">Property Damage and Attack Character</h3>
 <p>The distribution of property damage from attacks within primate habitats reveals the primary threat mechanism: displacement and death, not infrastructure destruction.</p>
 <p><strong>Figure 2. Property Damage Extent from Attacks Within Primate Habitats</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="property-damage-extent.png" class="img-fluid figure-img"></p>
-<figcaption>Bar chart showing frequency of attacks by property damage extent. The majority have no recorded property damage; 625 are minor, 306 unknown, and only 12 are major.</figcaption>
-</figure>
-</div>
+<p><img src="property-damage-extent.png" class="img-fluid"></p>
 <p><strong>Interpretation:</strong> The overwhelming majority of attacks either caused no recorded property damage (1,683) or minor damage under $1 million (625). Only 12 attacks caused major property damage. This pattern indicates that terrorism’s threat to ape conservation operates primarily through human consequences – deaths, injuries, and displacement – rather than through direct environmental destruction. People displaced by violence seek food from bushmeat and shelter from forest clearing; this is the pathway to habitat loss.</p>
 </section>
 <section id="political-context-democracy-and-governance-in-hotspot-countries" class="level3">
 <h3 class="anchored" data-anchor-id="political-context-democracy-and-governance-in-hotspot-countries">Political Context: Democracy and Governance in Hotspot Countries</h3>
 <p>All six countries identified as terrorism hotspots in the map share a common political profile – low egalitarian democracy scores relative to the African average.</p>
 <p><strong>Figure 3. Egalitarian Democracy Scores, Terrorism Hotspot Countries (V-Dem 2022)</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="vdem-hotspot-democracy.png" class="img-fluid figure-img"></p>
-<figcaption>Bar chart showing V-Dem egalitarian democracy index scores for DRC, Uganda, Burundi, Nigeria, Cameroon, and Sierra Leone. All score between 0.107 and 0.394 on a 0-1 scale.</figcaption>
-</figure>
-</div>
+<p><img src="vdem-hotspot-democracy.png" class="img-fluid"></p>
 <p><strong>Interpretation:</strong> Burundi scores lowest (0.107), followed by Uganda (0.173), DRC (0.182), and Cameroon (0.191). Nigeria (0.266) and Sierra Leone (0.394) are comparatively higher but still in the lower half of the African range (0.036–0.634). Low egalitarian democracy scores reflect conditions of poverty, inequality, and weak institutional protection – precisely the conditions identified as drivers of terrorism in sub-Saharan Africa. This is not coincidence: the same governance failures that generate terrorism also undermine the stable land tenure, economic opportunity, and law enforcement needed for effective conservation.</p>
 </section>
 <section id="hotspot-profiles" class="level3">
 <h3 class="anchored" data-anchor-id="hotspot-profiles">Hotspot Profiles</h3>
 <p><strong>DRC-Uganda-Burundi Corridor (eastern inset):</strong> The most critical region. The <a href="https://reliefweb.int/attachments/93b527d8-5b8d-3ea1-bc5e-f810e42d45df/GTI-2020-web-2.pdf">DRC ranked 9th globally</a> in the 2020 Global Terrorism Index, with terror incidents rising 58% in 2019. The Allied Democratic Forces were responsible for 17% of the 1,330 fatal attacks in the dataset. <a href="https://www.cambridge.org/core/journals/oryx/article/impact-of-war-on-forest-areas-in-the-democratic-republic-of-congo/05BD9F0EA298DB991DE884346F3697F2">War has increased deforestation</a> (for fuel) and bushmeat hunting (for food). The DRC is positioned for economic success through natural resource wealth, but <a href="https://www.bbc.com/news/world-africa-13283212">internal conflict hampers prosperity</a>. At its borders, <a href="https://www.bbc.com/news/world-africa-13085064">Burundi</a> is among the world’s poorest countries, with longstanding ethnic conflict between Hutu and Tutsi populations. <a href="https://www.bbc.com/news/world-africa-14107906">Uganda</a> has achieved relative stability but its north remains an epicenter of Lord’s Resistance Army activity – a group also active in the DRC.</p>
 <p><strong>Nigeria-Cameroon Border (center inset):</strong> Both countries have significant wealth and educated populations, but <a href="https://www.bbc.com/news/world-africa-13146029">Cameroon</a> struggles with corruption and multiple insurgent groups, and <a href="https://www.bbc.com/news/world-africa-13949550">Nigeria</a> with ethnic conflict, land-use rights, and the unequal distribution of <a href="https://www.theguardian.com/global-development/2021/nov/09/a-wealth-of-sorrow-why-nigerias-abundant-oil-reserves-are-really-a-curse">oil wealth</a>. Despite conservation efforts in Cameroon to <a href="https://planetforward.org/story/ape-action-africa/">protect apes</a>, people displaced by conflict are <a href="https://news.mongabay.com/2022/03/civil-conflict-in-cameroon-puts-endangered-chimpanzees-in-the-crosshairs/">encroaching into protected areas</a> and engaging in deforestation and bushmeat hunting.</p>
-<p><strong>Sierra Leone (western inset):</strong> Rich in mineral wealth, with a history of civil war and recent growth and stability. However, most goods are imported, and <a href="https://www.bbc.com/news/world-africa-67541285">inflation has exacerbated conflict</a> and increased poverty, culminating in an attempted coup at the end of 2023.</p>
+<p><strong>Sierra Leone (western inset):</strong> Rich in mineral wealth, with a history of civil war and recent growth and stability. However, most goods are imported, and <a href="https://www.bbc.com/news/world-africa-67541285">inflation has exacerbated conflict</a> and increased poverty, culminating in an attempted coup at the end of 2023. <a href="https://www.bbc.com/news/world-africa-14094194">Sierra Leone’s political profile</a> reflects the fragility that links economic instability to security risk.</p>
 </section>
 <section id="pathways-and-solutions" class="level3">
 <h3 class="anchored" data-anchor-id="pathways-and-solutions">Pathways and Solutions</h3>
@@ -207,26 +191,50 @@ ul.task-list li input[type="checkbox"] {
 <li>Extracted V-Dem egalitarian democracy scores for Africa 2022; filtered to hotspot countries; generated figure</li>
 </ol>
 <p>Projection: Web Mercator. Basemap: ESRI World Imagery (satellite).</p>
-<p><strong>Note on basemap:</strong> The ESRI World Imagery basemap is an XYZ tile service and cannot be packaged into a geopackage. To reproduce the map with the original basemap, add a new XYZ tile connection in QGIS:</p>
+<hr>
+</section>
+<section id="project-resources" class="level2">
+<h2 class="anchored" data-anchor-id="project-resources">Project Resources</h2>
+<p><strong>Repository:</strong> <a href="https://github.com/kchoover14/mapping-terrorism-ape-conservation">github.com/kchoover14/mapping-terrorism-ape-conservation</a></p>
+<p><strong>Data:</strong> Three sources – (1) Global Terrorism Database (GTD) from the <a href="https://www.start.umd.edu/data-tools/GTD">University of Maryland START Center</a> (note: access now requires registration); (2) primate habitat range shapefiles from the <a href="https://www.mammaldiversity.org/">Mammal Diversity Database</a> (Version 1.2, <a href="http://doi.org/10.5281/zenodo.4139818">Zenodo</a>) and <a href="https://mol.org/">Map of Life</a> (<a href="https://doi.org/10.48600/MOL-48VZ-P413">2021 dataset</a>); (3) V-Dem egalitarian democracy scores accessed via the <a href="https://github.com/vdeminstitute/vdemdata">vdemdata R package</a>.</p>
+<p><strong>Code:</strong></p>
+<ul>
+<li><code>mapping-terrorism-ape-conservation.R</code> – full analysis script: data cleaning, perpetrator tabulation, property damage figure, V-Dem democracy figure</li>
+</ul>
+<p><strong>Project Artifacts:</strong></p>
+<ul>
+<li><code>mapping-terrorism-ape-conservation-geopackage.gpkg</code> – QGIS geopackage containing layers, symbology, primate habitat shapefiles, and data</li>
+<li><code>map-terrorism-ape-conservation-layout.qpt</code> – QGIS print layout template</li>
+<li><code>map-terrorism-ape-conservation.jpg</code> – final map with layout applied (not reproducible from geopackage alone – see basemap note below)</li>
+<li><code>africa-gtdbData-subset.csv</code> – GTD data subset filtered to sub-Saharan Africa</li>
+<li><code>exportPointIntersectionTable.csv</code> – QGIS point-in-polygon intersection export (attacks within habitat ranges)</li>
+<li><code>demAf2022.csv</code> – V-Dem Africa 2022 data subset</li>
+<li><code>perpetrator-frequency.csv</code> – frequency table of attacks by perpetrator group</li>
+<li>Figures (n=2): property damage extent, V-Dem democracy scores</li>
+</ul>
+<p><strong>Basemap note:</strong> The ESRI World Imagery basemap is an XYZ tile service and cannot be packaged into the geopackage. To reproduce the map with the original basemap, add a new XYZ tile connection in QGIS:</p>
 <ul>
 <li>Name: ESRI World Imagery</li>
 <li>URL: <code>https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}</code></li>
 <li>CRS: EPSG:3857</li>
 <li>Min zoom: 0 / Max zoom: 17</li>
 </ul>
-<hr>
-</section>
-<section id="data-code" class="level2">
-<h2 class="anchored" data-anchor-id="data-code">Data &amp; Code</h2>
-<p>Repository: <a href="https://github.com/kchoover14/mapping-terrorism-ape-conservation">github.com/kchoover14/mapping-terrorism-ape-conservation</a></p>
-<p>Available in this repository: QGIS geopackage (layers, symbology, primate habitat shapefiles, and data), a separate csv of the GTD data subset used for the map (<code>africa-gtdbData-subset.csv</code>), the QGIS point-in-polygon intersection export (<code>exportPointIntersectionTable.csv</code>), V-Dem Africa 2022 data (<code>demAf2022.csv</code>), R script, and final map with layout applied (not available to export in geopackage).</p>
-<p>Source data: GTD records were downloaded when publicly available from the <a href="https://www.start.umd.edu/data-tools/GTD">University of Maryland START Center</a> (note: GTD access now requires registration). Primate habitat shapefiles are from the <a href="https://www.mammaldiversity.org/">Mammal Diversity Database</a> (Version 1.2, Zenodo) and <a href="https://mol.org/">Map of Life</a> (2021). V-Dem data accessed via the <a href="https://github.com/vdeminstitute/vdemdata">vdemdata R package</a>.</p>
+<p><strong>Environment:</strong></p>
+<ul>
+<li><code>renv.lock</code> and <code>renv/</code> – restore package environment with <code>renv::restore()</code></li>
+</ul>
+<p><strong>License:</strong></p>
+<ul>
+<li>Code and scripts © Kara C. Hoover, licensed under the <a href="LICENSE">MIT License</a>.</li>
+<li>Data, figures, and written content © Kara C. Hoover, licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</li>
+</ul>
 <hr>
 </section>
 <section id="tools-technologies" class="level2">
 <h2 class="anchored" data-anchor-id="tools-technologies">Tools &amp; Technologies</h2>
-<p><strong>Languages &amp; Tools:</strong> R, QGIS, Web Mercator projection, ESRI World Imagery basemap</p>
-<p><strong>R Packages:</strong> ggplot2, dplyr, janitor, ggpubr, vdemdata, countrycode</p>
+<p><strong>Languages:</strong> R</p>
+<p><strong>Tools:</strong> QGIS | Web Mercator projection | ESRI World Imagery basemap</p>
+<p><strong>Packages:</strong> dplyr | ggplot2 | janitor | ggpubr | vdemdata | countrycode</p>
 <hr>
 </section>
 <section id="expertise" class="level2">
